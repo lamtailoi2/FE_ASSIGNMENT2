@@ -21,6 +21,7 @@ body {
 .content_container {
   display: flex;
   justify-content: space-between;
+  margin-left: 20px;
 }
 
 .content-item {
@@ -78,6 +79,6 @@ body {
     position: static;
     margin-top: 20px;
     left: 0;
-    text-align: center;
+    text-align: right;
   }
 }
