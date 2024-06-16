@@ -16,12 +16,12 @@ body {
 .title strong {
   color: blue;
   font-weight: bolder;
+  
 }
 
 .content_container {
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
 }
 
 .content-item {
@@ -30,6 +30,10 @@ body {
   gap: 20px;
   font-size: 1rem;
   width: 80%;
+}
+
+.content-item h3 {
+  font-size: 2rem;
 }
 
 .content-item img {
@@ -56,6 +60,7 @@ body {
   .title {
     font-size: 20px;
     margin-bottom: 8px;
+
   }
 
   .content_container {
@@ -78,7 +83,6 @@ body {
   .footer {
     position: static;
     margin-top: 20px;
-    left: 0;
     text-align: right;
   }
 }
